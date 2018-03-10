@@ -1,0 +1,50 @@
+package com.observer;
+
+import java.util.Vector;
+
+//观察者接口
+interface IObserver{
+	public void refresh(String data);
+}
+
+//主题接口
+interface ISubject{
+	public void register(IObserver obs);//注册观察者
+	public void unregister(IObserver obs);//撤销观察者
+	public void notifyObservers(IObserver obs);//通知所有观察者
+}
+
+//主题实现类
+class Subject implements ISubject{
+
+	private Vector<IObserver> vec=new Vector();
+	private String data;
+	
+	@Override
+	public void register(IObserver obs) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void unregister(IObserver obs) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void notifyObservers(IObserver obs) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

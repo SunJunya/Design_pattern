@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.abstractFactory.TopCar"/>
+<fullyQualifiedTypeName name="com.abstractFactory.CarsSimpleFactory"/>
+<fullyQualifiedTypeName name="com.Factory.TopFactory"/>
+<fullyQualifiedTypeName name="com.builder.Product"/>
+<fullyQualifiedTypeName name="com.builder.IBuild"/>
+<fullyQualifiedTypeName name="com.builder.BuildProduct2"/>
+<fullyQualifiedTypeName name="com.builder.Director"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="com.observer.IObserver"/>
+<fullyQualifiedTypeName name="com.observer.Observer"/>
+<fullyQualifiedTypeName name="com.observer.Subject"/>
+<fullyQualifiedTypeName name="com.observer.ISubject"/>
+<fullyQualifiedTypeName name="com.bridge.AbstractThing"/>
+<fullyQualifiedTypeName name="com.bridge.IPost"/>
+<fullyQualifiedTypeName name="com.bridge.SimplePSt"/>
+<fullyQualifiedTypeName name="com.bridge.Letter"/>
+</qualifiedTypeNameHistroy>

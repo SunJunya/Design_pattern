@@ -1,0 +1,45 @@
+package com.abstractFactory;
+
+interface Icar{	}
+class TopCar implements Icar{	}
+class MidCar implements Icar{	}
+class LowCar implements Icar{	}
+
+interface Ibus{ }
+class TopBus implements Ibus{ }
+class MidBus implements Ibus{ }
+class LowBus implements Ibus{ }
+
+//¹¤³§
+abstract class AbstractFactory{
+	public abstract Icar creatCar();
+	public abstract Ibus creatBus();
+}
+
+class TopFactory extends AbstractFactory{
+	public Icar creatCar(){
+		return new TopCar();
+	}
+}
+
+class MidFactory extends AbstractFactory{
+	public Icar creat(){
+		return new MidCar();
+	}
+}
+
+class LowFactory extends AbstractFactory{
+	public Icar creat(){
+		return new LowCar();
+	}
+}
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		AbstractFactory ab=new TopFactory();
+		System.out.println(ab.getClass().getName());
+
+	}
+
+}
