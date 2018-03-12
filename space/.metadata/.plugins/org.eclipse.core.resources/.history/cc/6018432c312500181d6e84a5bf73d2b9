@@ -1,0 +1,32 @@
+package com.thread;
+
+class MyRunnableThread3 implements Runnable{
+	//实现Runnable接口，可以实现资源共享
+	public void run(){
+		for(int i=0;i<40;i++){
+			System.out.println(Thread.currentThread().getName()+" 运行 -->"+ i);
+		}
+	}
+}
+
+public class StrongRun {
+
+	public static void main(String[] args) {
+		MyRunnableThread3 t3=new MyRunnableThread3();
+		Thread tm=new Thread(t3);
+		tm.start();
+		for(int i=0;i<30;i++){
+			if(i>20){
+				try {
+					tm.join();
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				System.out.println("main线程 运行--> "+ i);
+			}
+		}
+
+	}
+
+}

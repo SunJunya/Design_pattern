@@ -16,4 +16,10 @@
 <fullyQualifiedTypeName name="com.bridge.IPost"/>
 <fullyQualifiedTypeName name="com.bridge.SimplePSt"/>
 <fullyQualifiedTypeName name="com.bridge.Letter"/>
+<fullyQualifiedTypeName name="com.thread.MyThread"/>
+<fullyQualifiedTypeName name="com.thread.MyRunnableThread"/>
+<fullyQualifiedTypeName name="com.thread.MyThread2"/>
+<fullyQualifiedTypeName name="com.thread.MyRunnableThread2"/>
+<fullyQualifiedTypeName name="com.thread.MyRunnableThread3"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
